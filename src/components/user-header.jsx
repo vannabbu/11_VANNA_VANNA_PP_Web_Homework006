@@ -26,15 +26,12 @@ export function UserHeader() {
       <Button variant="ghost" size="icon" className="relative text-blue-500">
         <Bell className="h-5 w-5" />
 
-        <span className="absolute right-2 top-2 flex h-2 w-2 rounded-full bg-blue-600 border-2 border-white" />
       </Button>
 
   
       <Button variant="ghost" size="icon" className="relative text-slate-400">
         <ShoppingCart className="h-5 w-5" />
-        <span className="absolute -right-1 -top-1 flex h-5 w-5 items-center justify-center rounded-full bg-blue-600 text-[10px] font-bold text-white">
-          3
-        </span>
+       
       </Button>
 
      

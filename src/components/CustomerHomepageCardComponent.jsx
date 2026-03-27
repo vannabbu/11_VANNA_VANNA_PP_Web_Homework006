@@ -7,7 +7,8 @@ import { Button } from "./ui/button";
 export default function CustomerHomepageCardComponent() {
   const  image  = '/next.svg';
   return (
-    <div className="group relative w-full max-w-md h-[700px] bg-gradient-to-br from-amber-50 to-white rounded-[2.5rem] p-8 flex flex-col justify-between overflow-hidden border border-amber-100 shadow-[0_20px_50px_rgba(245,158,11,0.05)] transition-all duration-500 hover:shadow-[0_40px_80px_rgba(245,158,11,0.1)] hover:-translate-y-2">
+    <Link href="/customers">
+      <div  className="group relative w-full max-w-md h-[500px] bg-gradient-to-br from-amber-50 to-white rounded-[2.5rem] p-8 flex flex-col justify-between overflow-hidden border border-amber-100 shadow-[0_20px_50px_rgba(245,158,11,0.05)] transition-all duration-500 hover:shadow-[0_40px_80px_rgba(245,158,11,0.1)] hover:-translate-y-2">
       <div className="absolute -top-20 -right-20 w-64 h-64 bg-amber-200/30 rounded-full blur-3xl group-hover:bg-amber-300/40 transition-colors duration-700" />
       <div className="relative z-10 flex flex-col gap-1">
         <div className="flex items-center gap-2">
@@ -48,5 +49,7 @@ export default function CustomerHomepageCardComponent() {
         </Link>
       </div>
     </div>
+    </Link>
+    
   );
 }

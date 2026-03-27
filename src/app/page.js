@@ -4,11 +4,14 @@ import ProductHomepageCardComponent from "@/components/ProductHomepageCardCompon
 export default function Home() {
   return (
     <>
-    <div className="flex h-[50%]">
-       <ProductHomepageCardComponent/>
-    <CustomerHomepageCardComponent/>
+    <div className="flex h-[50%] ">
+      <div className="m-10">
+        <ProductHomepageCardComponent/>
+      </div>
+      <div className="m-10">
+        <CustomerHomepageCardComponent/>
+      </div>
     </div>
-  
     </>
   );
 }
